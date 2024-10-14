@@ -1,0 +1,13 @@
+<HTML>
+	<head>
+		<title>секс-шоп</title>
+	</head>
+	
+	<body bgcolor = "soft pink"> 
+		<P align = "center"> привет
+		
+	</body>
+</HTML>
+
+
+background: rgb(80, 13, 15);

@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#text1{
+	font-size: 50pt;
+	color: red;
+	text-align: center;
+	font-variant :Stencil Std, fantasy ;
+}
+#textinfo {
+	color: rgb(255, 40, 40);
+	text-align: left;
+	font-size: 20pt;
+	font-variant: Stencil Std, fantasy;
+}
+.text{
+	font-family: "Bebas Neue", sans-serif;
+}
+#table1{
+	font-size: 200;
+	text-align: center;
+	width: 600;
+	height: 600;
+	background-color: black;
+	border-radius: 15PX;
+	color: red
+	
+}
+#text2{
+	text-align: center;
+	font-variant :Stencil Std, fantasy ;
+}
+.ebanina {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-bottom: 30px;
+	margin-right: 200px;
+}
+.sasf{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-bottom: 20px;
+}
+.dropbtn1 {
+	font-variant: Stencil Std, fantasy;
+	background-color: black;
+	color: red;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+.dropdown1 {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content1 {
+	font-variant: Stencil Std, fantasy;
+	display: none;
+	position: absolute;
+	background-color: red;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content1 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content1 a:hover {color: red; background-color: black;}
+
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+.dropdown1:hover .dropbtn1 {background-color: black;}
+
+.dropbtn2 {
+	font-variant: Stencil Std, fantasy;
+	background-color: black;
+	color: red;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+.dropdown2 {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content2 {
+	font-variant: Stencil Std, fantasy;
+	display: none;
+	position: absolute;
+	background-color: red;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content2 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content2 a:hover {color: red; background-color: black;}
+
+.dropdown2:hover .dropdown-content2 {display: block;}
+
+.dropdown2:hover .dropbtn2 {background-color: black;}
+
+.dropbtn3{
+	background-color: black;
+	color: red;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+.dropdown3{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content3{
+	display: none;
+	position: absolute;
+	background-color: red;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content3 a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content3 a:hover {color: red; background-color: black;}
+
+.dropdown3:hover .dropdown-content3 {display: block;}
+
+.dropdown3:hover .dropbtn3 {background-color: black;}
+
+#body1{
+	background-color: black;
+}
+
+.linkclass{
+	color: red;
+}
+#input1{
+	color: red;
+}
+#body2{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#btnsearch{
+	font-variant: Stencil Std, fantasy;
+	background-color: black;
+	color: red;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.thlow{
+	color: red;
+	background-color: black;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.search{
+	display: flex;
+	background: red;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+.searchbtn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	color: white;
+	cursor: pointer;
+}
+.searchbtn > i {
+	font-size: 30px;
+}
+
+.search:hover > .searchText {
+	width: 240px;
+	padding: 0 6px;
+}
+
+.searchText {
+	border: none;
+	background: none;
+	outline: none;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0;
+	font-weight: bold;
+
+}
+
+.search:hover > .searchbtn {
+	background: black;
+	color: white;
+}
+
+#body3 {
+	background-color: black
+}
+#body4{
+	background-color: black
+}
+
+.dropbtn4{
+	background-color: black;
+	color: red;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+.dropdown4{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content4{
+	display: none;
+	position: absolute;
+	background-color: red;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content4 a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content4 a:hover {color: red; background-color: black;}
+
+.dropdown4:hover .dropdown-content4 {display: block;}
+
+.dropdown4:hover .dropbtn4 {background-color: black;}
+
+#link1 {
+	color: red;
+}
+
+.dropbtn5 {
+	font-variant: Stencil Std, fantasy;
+	background-color: black;
+	color: red;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+.dropdown5 {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content5 {
+	font-variant: Stencil Std, fantasy;
+	display: none;
+	position: absolute;
+	background-color: red;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content5 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content5 a:hover {color: red; background-color: black;}
+
+.dropdown5:hover .dropdown-content5 {display: block;}
+
+.dropdown5:hover .dropbtn5 {background-color: black;}
